@@ -7,6 +7,7 @@
 
 img {
     max-width: 100%;
+    max-height: 100%;
 }
 
 /* Typography */
@@ -22,6 +23,29 @@ h4 {
     font-weight: 700;
 }
 
+/* HEADER */
+header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 7rem;
+    background-color: #FF6900;
+    box-shadow: 10px 0 10px grey;
+}
+
+ a{
+    color: white;
+    text-decoration: none;
+    margin-left: 1rem;
+ }
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+
+/* MAIN */
 /* row */
 .row {
     display: flex;
@@ -79,3 +103,5 @@ h4 {
     background-color: green;
     padding: 3px;
 }
+
+/* FOOTER */

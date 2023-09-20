@@ -1,0 +1,35 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.row {
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    border: 1px solid lightblue;
+}
+
+.col {
+    position: relative;
+    width: calc(100% / 3);
+    border: 1px solid black;
+}
+
+.second-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.col:hover .second-img{
+    display: inline-block;
+}
+

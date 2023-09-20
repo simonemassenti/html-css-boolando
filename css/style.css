@@ -70,6 +70,22 @@ header ul{
     position: relative;
 }
 
+.heart {
+    background-color: white;
+    position: absolute;
+    top: 10px;
+    right: 0;
+    font-size: 1.5rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    z-index: 5;
+}
+
+.heart:hover {
+    color: red;
+}
+
 .second-img {
     position: absolute;
     left: 0;
@@ -147,3 +163,4 @@ footer a{
     font-size: 0.9rem;
     margin-right: 1rem;
 }
+

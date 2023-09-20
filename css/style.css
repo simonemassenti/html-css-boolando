@@ -22,33 +22,38 @@ h4 {
     font-weight: 700;
 }
 
+/* row */
 .row {
     display: flex;
-    margin: 0 auto;
+    margin: 3rem auto;
     flex-wrap: wrap;
-    border: 1px solid lightblue;
     width: 80%;
 }
 
+
 .col {
-    position: relative;
     width: calc(100% / 3);
-    border: 1px solid black;
+    padding: 1rem;
+    position: relative;
+}
+
+.card {
+    position: relative;
 }
 
 .second-img {
     position: absolute;
-    top: 0;
     left: 0;
-    display: none;
+    z-index: -1;
 }
 
 .col:hover .second-img{
-    display: inline-block;
-}
+    z-index: 1;
+} 
 
-.red {
+.price {
     color: red;
+    font-weight: 500;
 }
 
 .line {
@@ -60,7 +65,8 @@ h4 {
     font-weight: bold;
     font-size: 0.8rem;
     position: absolute;
-    bottom: 6rem;
+    bottom: 7rem;
+    z-index: 2;
 }
 
 .discount {
